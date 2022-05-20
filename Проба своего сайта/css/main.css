@@ -1,0 +1,189 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 50px;
+	margin-bottom: 58px;
+}
+h3 {
+	font-size: 25px;
+	margin-bottom: 28px;
+}
+
+a {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 113px
+}
+
+p {
+	margin: 0;
+	font-family: 'Goldman', cursive;
+	font-size: 20px;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	/* РїРѕР·РёС†РёРѕРЅРёСЂРѕРІР°РЅРёРµ РїРѕ С†РµРЅС‚СЂСѓ */
+	margin: 0 auto;
+}
+.big {
+	font-family: 'Goldman', cursive;
+}
+.header {
+	background: url('../img/popd.jpg') no-repeat center top / cover;
+	padding-top: 57px;
+	color: #ff3385;
+	padding-bottom: 322px;
+	max-width: 100%;
+}
+
+header a {
+	color: #ff3385;
+}
+
+.logo {
+	margin-right: 100px;
+  height: 120px;
+  align-items: center;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a {
+	text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #FF69B4 inset, 0 0 0 0 #FF69B4;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: white;
+  transition: .15s ease-in-out;
+}
+
+.menu li a:hover {
+	box-shadow: 0 0 10px 0 #FF69B4 inset, 0 0 10px 4px #FF69B4;
+	  color: #FF1493;
+}
+
+.menu li {
+	margin-right: 100px;
+}
+
+.tel {
+	font-size: 17px;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+.tel:hover {
+  font-size: 20px;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.offer {
+	text-transform: uppercase;
+	margin-top: 216px;
+}
+
+.offer p {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+}
+
+.offer h1 {
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em
+}
+
+.btn_1 {
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #ff3385;
+	width: 238px;
+	transition: all 0.5s ease;
+  	background: #fff;
+		font-family: 'Goldman', cursive;
+}
+
+.btn_1:hover {
+	background:	 #ffe6f0;
+    color: #000;
+		text-decoration: none;
+}
+
+.description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
+}
+
+.desc-left, .desc-right {
+	width: 567px;
+}
+.gallery {
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.gallery img {
+	transition: all 0.5s ease;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
+}
+.footer-text {
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	padding: 114px 0
+}
+
+.footer-text p {
+	margin-right: 67px;
+}
